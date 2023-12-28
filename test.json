@@ -1,0 +1,34 @@
+{
+    "*447*8#": {
+        "session_id": "123456789",
+        "msisdn": "0555351068",
+        "msg_type": "0",
+        "ussd_body": "8",
+        "nw_code": "02",
+        "service_code": "447"
+    },
+    "*477*8*{FormNumber}#": {
+        "session_id": "123456789",
+        "msisdn": "0555351068",
+        "msg_type": "1",
+        "ussd_body": "{FormNumber}",
+        "nw_code": "02",
+        "service_code": "447"
+    },
+    "*477*8*{FormNumber}*{Option}#": {
+        "session_id": "123456789",
+        "msisdn": "0555351068",
+        "msg_type": "1",
+        "ussd_body": "1",
+        "nw_code": "02",
+        "service_code": "447"
+    },
+    "*477*8*{FormNumber}*{Option}*{MoMoNumber}#": {
+        "session_id": "123456789",
+        "msisdn": "0555351068",
+        "msg_type": "1",
+        "ussd_body": "{MoMoNumber}",
+        "nw_code": "02",
+        "service_code": "447"
+    }
+}

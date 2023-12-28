@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "predis/predis": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
